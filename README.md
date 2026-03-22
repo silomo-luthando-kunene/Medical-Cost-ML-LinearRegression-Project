@@ -56,7 +56,7 @@ By visualising the weights assigned by the models, I identified the top 3 cost d
 </div>
 
 ### Residual Analysis
-I created Linear Regression model residual plots to check for model bias.
+I created a Linear Regression model residual plot to check for model bias.
 * **Finding:** Majority of the residuals are tightly clustered around the zero line while a few clusters are significantly removed from the zero line. Other residuals are dispersed with no clear pattern.
 * **Limitation:** The behaviour of tiny clusters away from the zero line especially at higher costs suggests the model is less certain when predicting extremely high medical charges (outliers).
 
@@ -74,7 +74,7 @@ For this dataset, **Linear Regression** is the most efficient choice. While Lass
 
 ## 🗂️ Project Structure
 * `Medical_Cost_Regression.ipynb`: Full Python code and analysis.
-* `insurance.csv`: Dataset (Source: Kaggle).
+* `insurance.csv`: Dataset (Source: [Kaggle - Medical Costs Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance/code)).
 * `README.md`: Project report and summary.
 
 `#machine-learning` `#regression` `#python` `#scikit-learn` `#data-science`
