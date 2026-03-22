@@ -1,6 +1,6 @@
 # 🏥 Medical Insurance Cost - Regression Lifecycle Project (README TO BE FINALISED)
 
-This project demonstrates a beginner Machine Learning workflow from exploratory data analysis to model evaluation, aimed at investigating the impact of lifestyle choices on insurance premiums. By analysing the Medical Cost Personal Dataset I developed a Linear Regression, Lasso and Ridge Regularisation model that predicts annual charges with R sqaured value of 0.7836, 0.7806 and 0.7835 respectively. Key highlights include implementing StandardScaler for fair regularization and using Lasso and Ridge models to validate feature significance.
+This project demonstrates a beginner Machine Learning workflow from exploratory data analysis to model evaluation, aimed at investigating the impact of lifestyle choices on insurance premiums. By analysing the Medical Cost Personal Dataset I developed a Linear Regression, Lasso and Ridge Regularisation model that predicts annual charges with R squared value of 0.7836, 0.7806 and 0.7835 respectively. Key highlights include implementing StandardScaler for fair regularization and using Lasso and Ridge models to validate feature significance.
 
 ## 🛠️ Project Lifecycle
 1. Exploratory Data Analysis.
@@ -39,7 +39,7 @@ To ensure the models were accurate and fair I performed the following:
 
 <br>
 
-**Note:** Since my R2_score values are consistent/nearly identical, it shows that regularisation (Lasso and Ridge) did not siginifcanty change the performance of the model's output. This is verifies that my initial simple Linear Regression does not overfit. The top 3 cost drivers (Smoker, Age and BMI) are dominant and regularisation did not shrink any coefficients to zero as a result.
+**Note:** Since my R2_score values are consistent/nearly identical, it shows that regularisation (Lasso and Ridge) did not significantly change the performance of the model's output. This is verifies that my initial simple Linear Regression does not overfit. The top 3 cost drivers (Smoker, BMI and Age) are dominant and regularisation did not shrink any coefficients to zero as a result.
 
 ## 📈 Key Insights & Results
 
